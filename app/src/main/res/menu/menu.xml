@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/MenuCustomers"
+        >
+    <item
+        android:id="@+id/menucustomers"
+
+        android:title="@string/customers_menu" />
+    </group>
+    <group android:id="@+id/MenuItems"
+        >
+    <item
+        android:id="@+id/menuitems"
+
+        android:title="@string/items_menu" />
+    </group>
+    <group android:id="@+id/MenuTrancations"
+        >
+    <item
+        android:id="@+id/menutrancations"
+
+        android:title="@string/trancations_menu" />
+    </group>
+</menu>
